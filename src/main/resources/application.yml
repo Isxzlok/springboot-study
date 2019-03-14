@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+person:
+  name: xiongzhilong
+  age: 18
+  sex: 男
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dbgirl?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: adminadmin
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
